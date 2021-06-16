@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    height: 100%;
+    width: 100%;
+    background: -webkit-linear-gradient(to right, hsla(103, 95%, 50%, 0.459), hsla(175, 45%, 52%, 0.664));
+    background: linear-gradient(to right, hsla(169, 95%, 50%, 0.385), hsla(115, 100%, 50%, 0.664));
+}
+
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/*textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100px;
+}*/
+
+.Texto li {
+    color: white;
+}
+
+.btn {
+    background: rgba(0, 235, 255, 1.00);
+    color: red;
+    padding: 30px;
+    border-radius: 10%;
+}
+
+.Genero {
+    padding: 0px;
+    width: auto;
+    height: auto;
+}
+
+.btn:hover {
+    cursor: pointer;
+}

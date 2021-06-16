@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>Formulario Cita Medica</title>
+    <meta charset="UTF8">
+    <link rel="stylesheet" href="CSS/Estilo_Formulario.css">
+    <link rel="stylesheet" href="CSS/Estilo_Menu.css">
+</head>
+
+<body>
+    <!-- Aqui comiensa el menu -->
+    <section class="fondo">
+        <nav class="navbar">
+            <div class="content">
+                <div class="logo">
+                    <a href="index.html">Hospital Hosting</a>
+                </div>
+                <ul class="menu-list">
+                    <div class="icon cancel-btn">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html#Sobre_Nosotros">Sobre Nostros</a></li>
+                    <li><a href="index.html#Realizar_Cita_Medica">Realizar Cita</a></li>
+                    <li><a href="index.html#Realizar_Cita_Medica">Ver Mi Cita</a></li>
+                    <li><a href="index.html#Contacto">Contactanos</a></li>
+                </ul>
+                <div class="icon menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+        <div class="banner"></div>
+        <div class="about">
+        </div>
+    </section>
+    <script src="JS/Responsive.js"></script>
+
+    <!-- Aqui termina-->
+    <div class="row">
+        <form action="Formulario_Cita_Medica.php" method="post" class="formulario">
+            <h2>Formulario</h2>
+
+            <input type="text" name="Nombre" placeholder="Nombre" required>
+            <input type="text" name="Apellido" placeholder="Apellido" required>
+            <input type="text" name="Cedula" placeholder="Cedula" required>
+            <input type="email" name="Correo" placeholder="Correo" required>
+            <input type="text" name="Sexo" placeholder="Sexo" required>
+            <input type="number" name="Edad" placeholder="Edad" required>
+            <input type="number" name="Telefono" placeholder="Telefono" required>
+            <input type="text" name="Direccion" placeholder="Direccion" required>
+            <input type="submit" name="ENVIAR" value="ENVIAR" id="boton" class="btn">
+        </form>
+    </div>
+
+</body>
+
+</html>

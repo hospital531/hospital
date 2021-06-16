@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/*Aqui se le arreglan los margenes a todo el contenido*/
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*Aqui se le da color y tamaño al menu*/
+
+.Envoltura {
+    margin: 0;
+    padding: 1%;
+    background: rgba(23, 216, 230, 0.753);
+    /* position: fixed;*/
+    /*Su valorera 100%*/
+    width: 100%;
+}
+
+
+/*Envoltura*/
+
+.Envoltura nav {
+    position: relative;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .content {
+    display: flex;
+    align-items: center;
+}
+
+nav .content .links {
+    margin-left: 1%;
+    display: flex;
+}
+
+.content .logo a {
+    color: Black;
+    font-size: 30px;
+    font-weight: 100%;
+}
+
+
+/*Aqui se altera la altura de los iconos dentro del menu*/
+
+.content .links li {
+    list-style: none;
+    line-height: 0;
+}
+
+
+/*Esto es para alteral el tamaño de las letras, margenes y otras cosa dentro del menu*/
+
+.content .links li a,
+.content .links li label {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 100%;
+    padding: 20px 80px;
+    border-radius: 10%;
+    transition: all 0.3s ease;
+}
+
+.content .links li label {
+    display: none;
+}
+
+
+/*Color del sombreado del menu*/
+
+.content .links li a:hover,
+.content .links li label:hover {
+    background: #6ab4808f;
+}
+
+
+/*Envoltura*/
+
+.Envoltura .search-icon,
+.Envoltura .menu-icon {
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    line-height: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+
+/*Envoltura*/
+
+.Envoltura .menu-icon {
+    display: None;
+}
+
+
+/*Envoltura*/
+
+.Envoltura #show-search:checked~.search-icon i::before {
+    content: "\f00d";
+}
