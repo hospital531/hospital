@@ -18,7 +18,7 @@ VALUES ('$NOMBRE_C','$APELLIDO_C','$CORREO_C', '$Mensaje_C')";
 
   $_SESSION['message'] = 'Tu Mensaje se a enviado Con Exito!!1';
   $_SESSION['message_type'] = 'success';
-  header('Location:Index.html');
+  header('Location:index.html');
 
 }
 /*T-ShirtAdmin123 contrase;a de mi pagina */
