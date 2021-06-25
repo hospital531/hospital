@@ -201,6 +201,15 @@
         </div>
         <h2 class="titulo-final">&copy; copyright | Hospital Hosting</h2>
     </footer>
+    <!-- Código de instalación Cliengo para  Hospital Hosting -->
+<script type="text/javascript">(function () {
+var ldk = document.createElement('script');
+ldk.type = 'text/javascript';
+ldk.async = true;
+ldk.src = https://s.cliengo.com/weboptimizer/60d616e36e9794002ae3771b/60d616e46e9794002ae3771e.js?platform=view_installation_code;
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ldk, s);
+})();</script>
 </body>
 
 </html>
