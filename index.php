@@ -46,7 +46,7 @@
 var ldk = document.createElement('script');
 ldk.type = 'text/javascript';
 ldk.async = true;
-ldk.src = https://s.cliengo.com/weboptimizer/60d616e36e9794002ae3771b/60d616e46e9794002ae3771e.js?platform=view_installation_code;
+ldk.src = "https://s.cliengo.com/weboptimizer/60d616e36e9794002ae3771b/60d616e46e9794002ae3771e.js?platform=view_installation_code";
 var s = document.getElementsByTagName('script')[0];
 s.parentNode.insertBefore(ldk, s);
 })();</script>
